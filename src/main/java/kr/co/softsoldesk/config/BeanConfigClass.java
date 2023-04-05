@@ -28,4 +28,5 @@ public class BeanConfigClass {
 		return t2;
 		
 	}
+	
 }

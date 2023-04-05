@@ -3,7 +3,7 @@ package kr.co.softsoldesk.beans;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("TestBean3")
 public class TestBean3 {
 
 	private int data1;

@@ -35,6 +35,12 @@ public class MainClass {
 		System.out.println("t3 : "+java3.getData3());
 		System.out.println("t4 : "+java3.getData4());
 		System.out.println("--------------------------------------------------");
+		TestBean3 t3=ctx.getBean("TestBean3",TestBean3.class);
+		System.out.println("t3 : "+t3.getData1());
+		System.out.println("t3 : "+t3.getData2());
+		System.out.println("t3 : "+t3.getData3());
+		System.out.println("t3 : "+t3.getData4());
+		
 		
 		ctx.close();
 	}
